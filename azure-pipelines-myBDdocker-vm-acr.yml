@@ -17,7 +17,7 @@ stages:
         displayName: 'Deploy MySQL to VM'
         environment:
           name: 'VMLinuxDocker'  # Nombre del entorno configurado en Azure DevOps
-          resourceType: VirtualMachine  # Especifica que se conecta a una máquina virtual
+          resourceType: VM-DemoDevOps  # Especifica que se conecta a una máquina virtual
         strategy:
           runOnce:
             deploy:
